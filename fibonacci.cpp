@@ -7,7 +7,7 @@ long fibonacci(int n)
 	return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-int main(int argc, char* argv[])
+int main()
 {
 	int num; //argument to pass in a fibonacci function
 	std::cin >> num;	
